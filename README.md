@@ -1,2 +1,158 @@
-# velmurughan.github.io
-Resume
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Velmurughan — Resume</title>
+  <meta name="description" content="Resume / Portfolio — Velmurughan" />
+  <style>
+    :root{
+      --bg:#0f1724; --accent:#7dd3fc; --muted:#94a3b8; --glass: rgba(255,255,255,0.04);
+      --maxw:900px; --radius:12px; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+    }
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#071024 0%, #07162a 100%);color:#e6eef8}
+    .wrap{max-width:var(--maxw);margin:40px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:var(--radius);box-shadow:0 6px 30px rgba(2,6,23,0.6);}
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#60a5fa);display:flex;align-items:center;justify-content:center;font-weight:700;color:#072233}
+    h1{margin:0;font-size:24px;letter-spacing:0.2px}
+    .sub{color:var(--muted);margin-top:6px;font-size:14px}
+    .toprow{display:flex;justify-content:space-between;gap:18px;margin-top:8px}
+    .contact{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .pill{background:var(--glass);padding:8px 12px;border-radius:10px;font-size:13px;color:var(--muted)}
+    main{display:grid;grid-template-columns:1fr 320px;gap:22px;margin-top:22px}
+    .card{background:rgba(255,255,255,0.02);padding:18px;border-radius:10px}
+    .section{margin-bottom:14px}
+    h2{margin:0 0 8px 0;font-size:16px}
+    .job{margin-bottom:12px}
+    .job h3{margin:0;font-size:15px}
+    .meta{color:var(--muted);font-size:13px;margin-top:4px}
+    ul{padding-left:18px;margin:8px 0}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:rgba(255,255,255,0.03);padding:6px 8px;border-radius:8px;font-size:13px}
+    footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+    @media (max-width:880px){main{grid-template-columns:1fr;}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar">VA</div>
+      <div style="flex:1">
+        <h1>Velmurughan A Shanmugasundaram</h1>
+        <div class="sub">Aspiring Front-end Developer • React, JavaScript, MERN • Building practical web & IoT solutions</div>
+        <div class="toprow">
+          <div class="contact">
+            <div class="pill">📍 Coimbatore, India</div>
+            <div class="pill">✉️ <a href="mailto:velmurughan011@gmail.com" style="color:inherit;text-decoration:none">velmurughan011@gmail.com</a></div>
+            <div class="pill">📱 +91 99442 75480</div>
+            <div class="pill">🔗 <a href="https://github.com/Velmurughan" style="color:inherit;text-decoration:none">github.com/Velmurughan</a></div>
+            <div class="pill">🔗 <a href="https://linkedin.com/in/vel-a-s" style="color:inherit;text-decoration:none">linkedin.com/in/vel-a-s</a></div>
+          </div>
+          <div style="text-align:right">
+            <div class="pill">Resume</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="card section">
+          <h2>About</h2>
+          <p style="margin:0;color:var(--muted)">Front-end developer building responsive, accessible web apps with React and Java. Experienced with MERN projects, IoT prototypes, and real-time dashboards. Rapid learner who ships small, testable features. Seeking front-end roles or internships.</p>
+        </div>
+
+        <div class="card section">
+          <h2>Experience</h2>
+
+          <div class="job">
+            <h3>Front-End Developer Intern — I2 Software Tech Solutions</h3>
+            <div class="meta">Nov 2024 – Dec 2024 • Coimbatore</div>
+            <ul>
+              <li>Built a student attendance management system (MERN): authentication, dashboard, and student management modules.</li>
+              <li>Implemented real-time attendance marking; improved data retrieval performance and UX for admins.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <h3>Quality Analyst Intern — Schnell Energy Equipments (P) Ltd</h3>
+            <div class="meta">June 2024 – July 2024 • Coimbatore</div>
+            <ul>
+              <li>Documented testing procedures, created test blueprints, and improved QA workflows for faster onboarding.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h2>Projects</h2>
+
+          <div class="job">
+            <h3>The Matrix of Security</h3>
+            <div class="meta">Jan 2025 – May 2025</div>
+            <ul>
+              <li>Real-time cybersecurity dashboard & anomaly detection (Nmap, Scapy, XGBoost) — 97% multi-class accuracy; alerts within 1s.</li>
+              <li>Built Flask + PostgreSQL dashboard for device inventory, alerts, and vulnerabilities. GitHub: <a href="https://github.com/Velmurughan/The-Matrix-of-Security" style="color:inherit">github.com/Velmurughan/The-Matrix-of-Security</a></li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <h3>Wildlife Detection & Electric Fence Activation</h3>
+            <div class="meta">Aug 2023 – May 2024</div>
+            <ul>
+              <li>YOLO on Raspberry Pi for animal detection; automated fence activation + SMS/voice alerts. GitHub: <a href="https://github.com/Boolean-Hooligans-356/WILDLIFE-DETECTION-AND-ELECTRIC-FENCING-ACTIVATION-SYSTEM" style="color:inherit">github.com/Boolean-Hooligans-356/WILDLIFE-DETECTION</a></li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <h3>In-campus Navigation (AR)</h3>
+            <div class="meta">Aug 2022 – May 2023</div>
+            <ul>
+              <li>Built mobile AR navigation with Unity & ARCore for indoor wayfinding.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h2>Education</h2>
+          <div class="meta">B.Tech, Information Technology — Sri Ramakrishna Engineering College</div>
+          <div class="meta">2021 – May 2025 • CGPA: 7.18 / 10</div>
+        </div>
+      </section>
+
+      <aside>
+        <div class="card section">
+          <h2>Technical Skills</h2>
+          <div class="skills">
+            <div class="skill">HTML</div><div class="skill">CSS</div><div class="skill">JavaScript</div><div class="skill">React</div>
+            <div class="skill">Node.js</div><div class="skill">Express</div><div class="skill">MongoDB</div><div class="skill">PostgreSQL</div>
+            <div class="skill">Java</div><div class="skill">Python</div><div class="skill">Flask</div><div class="skill">Docker</div>
+            <div class="skill">YOLO</div><div class="skill">XGBoost</div><div class="skill">Arduino/Raspberry Pi</div>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h2>Certifications & Activities</h2>
+          <ul style="margin:0;padding-left:18px;color:var(--muted)">
+            <li>Full Stack Developer with Gen AI — NIIT (in progress)</li>
+            <li>Cloud Computing Workshop — IBM</li>
+            <li>Finalist — Neura Hackathon (CSI, SREC)</li>
+            <li>Winner — Hacktech 2.0 (GDSC)</li>
+          </ul>
+        </div>
+
+        <div class="card section">
+          <h2>Additional</h2>
+          <div style="color:var(--muted)">
+            <div>Languages: English, Tamil, German (learning)</div>
+            <div>Location: Coimbatore, Tamil Nadu</div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div>Portfolio & Resume — Velmurughan • Last updated: <!-- optional: keep or remove --> Oct 17, 2025</div>
+    </footer>
+  </div>
+</body>
+</html>
